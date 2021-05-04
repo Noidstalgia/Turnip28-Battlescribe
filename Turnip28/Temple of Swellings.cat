@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3ca9-9b07-0e6a-d791" name="Temple of Swellings" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d722-2d4a-f471-d8a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="6b96-d753-4474-9953" name="- Root Priest" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f211-e25d-bc53-3a58" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e54c-f358-419c-f865" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="4b5e-698b-8a88-dea1" name="Toff" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">2</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">2</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">6&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="030f-58e6-c880-b69b" name="Toff Off!" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">When a Toff is chosen to activate, and there is an enemy Toff within 18&quot; and in line of sight, they may propose a Toff Off!</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3043-a680-c1bb-adb3" name="The Swelling" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">Your Toff has been elected Root Priest
+and given a horrific projectile called the Swelling.
+
+Once per game your Root Priest can make a special shooting attack with a range of 12&quot;.
+The Toss can be preformed any time you would make a normal shooting attack. The Toss is made as if the Root Priest had an accuracy of 1+.
+If the Toss hits you may pick one model in the target unit. This model is removed and replaced with The Swelling. If there are any models in the way of the Swelling they are moved 1&quot; directly away keeping in coherency.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="860d-eee4-afae-087c" name="Toff Off!" hidden="false">
+          <description>When a Toff is challenged to a Toff Off! they may choose how the duel is fought: Pistols or sabres.
+• Pistols: Both Toffs will make simultaneous shooting attacks against each other until one of them has perished.
+These attacks do not generate powder smoke.
+• Sabres: Both Toffs will make simultaneous melee attacks against each other until one of them has perished.
+If a Toff cannot make shooting attacks, either because of mutations or equipment, they must endure a single free
+shooting attack from their opponent before both parties proceed to duel using sabres.
+If a player is feeling particularly honourable, when challenged, they may give their opponent the choice between
+Pistols or Sabres.
+To add a bit of visual flair players are encouraged to pick a suitable spot on the battlefield to host their Toff Off! Mark
+the Toff&apos;s original positions with tokens and place the Toffs together 6&quot; apart if using pistols, or in base-to-base if
+using sabres.
+Once one Toff has fallen, return the victor to their original position and proceed with their orders.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6b2d-f602-2f8d-eda7" name="Snobs" hidden="false" targetId="ac0e-d25b-5586-365c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a2a6-4cf9-d519-cbee" name="Command Range 6&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3994-9a10-2ca5-56bb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4166-638b-89d0-11cf" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c7f0-e350-d77a-ec4c" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bdb-d4d6-0ba1-5538" name="Toady" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f3-c94e-12d6-5826" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cd-a1f7-73fc-217e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e573-aaab-cc3d-73f7" name="Toady" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">1</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">6+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">6&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a6cd-2672-e73d-8aa1" name="Snobs" hidden="false" targetId="ac0e-d25b-5586-365c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="96b2-1455-b203-b907" name="Command Range 3&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da77-b978-8cc7-cb3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd6-c61e-ec66-bfa0" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0f6a-2965-bb0e-9f5b" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="daa4-f198-b227-30aa" name="Whelps" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce2b-957a-5f8f-6849" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1c-c5b4-431c-a768" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0176-6dde-9e6e-b3b0" name="Whelp" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">12&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">2</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">7+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">18&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d133-90f5-8aa4-f8ba" name="Run them Down!" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd"> If this unit charges or initiates a shooting engagement with an enemy unit that retreated this round (including after failing a panic test) they receive +2 to their Accuracy rolls until the melee or Engagement has resolved.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="80d9-76f1-bb3e-48d4" name="New CategoryLink" hidden="false" targetId="9c21-4e72-015f-d9de" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ba56-b281-525d-dce9" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="218c-d0d1-b5d4-b939" name="Fodder" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad4-64f2-6063-ec43" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ca9-5613-0c64-7622" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0ce5-ec36-384d-a6df" name="Fodder" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">1</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">6+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">6+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">18&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7f1d-7dee-924d-d5d1" name="Safety in Numbers" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">If the unit begins a round with 10 or more models they are Fearless.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="1768-2fe6-966c-80d5" name="New CategoryLink" hidden="false" targetId="bba9-3cc2-1cea-6c97" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1e25-f166-ecf9-417f" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0bac-f360-0119-2720" name="Rootlings" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebdb-6e1b-6759-9596" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cb1-701e-30f3-14a2" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9b81-7560-5469-5829" name="Rootling" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">3</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">6+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">1&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">4</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d9c-1cf6-0c8f-7fce" name="Pathetic" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">Units of Rootlings must be equipped with close combat weapons, but do not
+decrease the Resilience rolls of their target by 1 in melee.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4b42-8824-5c58-7a9a" name="Skirmish" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">+2 to enemies Accuracy if this unit is the target of a shooting attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be27-3071-c168-6ce9" name="Vanguard" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">This unit and their snob may deploy inside a deployment zone that is 6&quot; larger. If deploying with a Toff and another unit without Vanguard, the unit without Vanguard must use the standard deployment zone.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e092-72c3-05fe-bf61" name="Marsh Born" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">Units of Rootlings never take dangerous terrain tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="700d-3003-54c7-d483" name="New CategoryLink" hidden="false" targetId="bba9-3cc2-1cea-6c97" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="816a-fc2c-47c9-bece" name="Close Combat" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c142-5b56-0de6-bc47" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc62-5318-5b76-f5ca" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7b0b-275f-de93-5c0c" name="Close Combat" hidden="false">
+              <description>A unit equipped with close combat weapons cannot make shooting attacks, but increases the Resilience (Re) their target needs by 1 and decrease their own by 1 when fighting in melee.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5e9-124d-1fbe-6eb7" name="Brutes" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da0-2692-730c-df7f" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2c0-0b04-9f52-2717" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1b3e-5458-0e5c-ab20" name="Brute" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">2</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">18&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">6</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="cc76-0a2e-25bb-09bf" name="Fearless" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">Every time this unit is required to retreat, on a 3+ they do not retreat, and are treated as if they passed any panic tests.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="961d-6494-6332-0f0a" name="New CategoryLink" hidden="false" targetId="bba9-3cc2-1cea-6c97" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4ea0-5480-a45f-b2ce" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bffe-f2eb-c5f6-488b" name="Stump Gun" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5615-e26c-6f99-4f93" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="404a-e7cb-782a-aa47" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="626c-6da7-b075-cda2" name="Stump Gun" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">0&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">3</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">6+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">3</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">-</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1 Gun, 3 Crew</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="79cf-3805-ba28-54ee" name="Unstable Icon" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">• When rolling to hit as part of a shooting attack the Stump Gun receives one panic token for each natural 1 rolled.
+Any 1s rolled when generating Grape Shot attacks do not cause Panic tokens.
+
+• If the Stump Gun has 3 or more panic tokens before it makes a shooting attack it is dangerously unstable. If any further natural 1s are rolled when rolling to hit something has gone horribly wrong, immediately remove the gun from the table as it detonates obliterating the crew completely. The gun resolves its shooting attacks as normal if it explodes. Its crew, the barrel and surrounding plant matter cease to exist, but their shot still speeds towards their
+opponent.
+A Stump Gun must have at least 3 panic tokens when it rolls its shooting attacks to have any risk of exploding, and shooting attacks should be rolled all at once, not one at a time.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4be7-e83a-596d-cfb7" name="Preliminary Bombardment" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">After players have deployed and before any cult abilities have been used players may choose to fire a preliminary bombardment. Starting with the player who took the initiative players take turns making a free round shot attack with their Stump Guns. Preliminary bombardments can generate panic tokens, but do not cause a unit to Retreat.
+
+You do not need to roll for blundering for Preliminary Bombardment.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a133-769d-6189-7004" name="Stubborn Fanatics" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">The crew of a Stump Gun love their grumpy child and will never abandon them. The Stump Gun
+cannot charge, march or move and shoot, and will never retreat in any circumstance.
+
+• If the Stump Gun has 3 or more panic tokens before it makes a shooting attack it is dangerously unstable. If any further natural 1s are rolled when rolling to hit something has gone horribly wrong, immediately remove the gun from the table as it detonates obliterating the crew completely. The gun resolves its shooting attacks as normal if it explodes. Its crew, the barrel and surrounding plant matter cease to exist, but their shot still speeds towards their
+opponent.
+A Stump Gun must have at least 3 panic tokens when it rolls its shooting attacks to have any risk of exploding, and shooting attacks should be rolled all at once, not one at a time.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c072-636a-5b29-7732" name="New CategoryLink" hidden="false" targetId="1b04-96cf-9397-f321" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4e65-e7a1-0f14-d69d" name="Ammunition" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8264-e141-295c-920a" name="Grape Shot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7905-b2c0-afe3-a7ad" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57a-54db-7e7d-c618" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="82a8-a6f9-091f-aaef" name="Grape Shot" page="" hidden="false" typeId="b97b-b46d-d5fd-6f5a" typeName="Ammunition">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c480-506c-d6e8-4eb2">12&quot;</characteristic>
+                    <characteristic name="Rules" typeId="03a3-6c6f-a9d8-d02f">Before making the shooting attack the player rolls three dice. The total rolled is the number of shooting attacks the Stump Gun makes this round. These attacks are made with an Accuracy of 6+ and the target can make its Resilience rolls as normal.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="010f-d11f-e403-d093" name="Round Shot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9d-c8f8-9ad7-6700" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e687-0af5-76f1-74a8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a4b6-52e7-9c21-1139" name="Round Shot" page="" hidden="false" typeId="b97b-b46d-d5fd-6f5a" typeName="Ammunition">
+                  <characteristics>
+                    <characteristic name="Range" typeId="c480-506c-d6e8-4eb2">60&quot;</characteristic>
+                    <characteristic name="Rules" typeId="03a3-6c6f-a9d8-d02f">The player rolls three shooting attack dice instead of the usual one. Any hits cause 2 automatic wounds to the unit. These cannot be prevented by a resilience roll.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbe0-caad-ba53-4e59" name="Bastards" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b9-a9cf-aeba-9267" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a25-0e46-ae8c-3850" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1c1a-402a-300c-eac1" name="Bastard" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">12&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">3</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">18&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="23f4-0639-8f09-5716" name="Bowel-loosening Charge" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">When a unit of Bastards charges, their target counts as having twice as many panic tokens remembering a unit can never have more than 6 panic tokens. This is done before any other modifiers.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cdde-bc59-b608-c959" name="New CategoryLink" hidden="false" targetId="9c21-4e72-015f-d9de" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c472-88d9-c470-dc84" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="0ee3-efd3-b9d1-6888" name="The swelling" hidden="false">
+      <description>The Swelling starts without any tendrils and may only
+ever have a maximum of 8 tendrils at any time.</description>
+    </rule>
+    <rule id="8f5a-1182-24e1-80b5" name="Tendrils" hidden="false">
+      <description>At the start of a Round if the Swelling is on the table it Sprouts TWO tendrils.
+
+Every time the Swelling sprouts you must roll to see if you blunder. If you blunder your opponent must place the tendrils instead. You only need to roll once each time the Swelling sprouts, not once for each tendril.
+A tendril must be placed with one narrow end in base to base contact with the Swelling and its other at least 2&quot; away. Once a tendril has been placed it also counts as the Swelling.
+A tendril must be placed so that it is at least 1&quot;away from all other units or objective markers. If its
+impossible to place a tendril it is not placed.
+
+The Swelling constantly hungers for flesh.
+
+• If a unit ends its move within 2&quot; of the Swelling it must immediately take a dangerous terrain test.
+This includes retreating.
+• If a tendril is placed within 2&quot; of a unit, that unit must immediately take a dangerous terrain test.
+• At the start of a round, after the Swelling sprouts any units within 2&quot; of the Swelling must immediately take a dangerous terrain test.
+The Swelling can only ever force a unit to take one dangerous terrain test a round
+
+Players treat The Swelling as an enemy unit for the sake of movement and retreating. The Swelling can never be the target of a shooting attack or a charge.
+Only the circular base of the Swelling blocks line of sight.</description>
+    </rule>
+    <rule id="3598-353a-ccbc-4399" name="Call of the Swollen One" hidden="false">
+      <description>Your Root Priest may forgo their Activation to call on the Swelling. When chosen to Activate the Snob may instead sprout a single tendril, rolling to blunder like normal.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ed27-1e58-524e-55d2" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943b-2d3c-66b2-3dd3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf3c-d5e4-ffed-ccee" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="245f-6e21-ae04-aefb" name="Close Combat" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c81d-9b3d-9142-afbc" name="Close Combat" hidden="false">
+              <description>A unit equipped with close combat weapons cannot make shooting attacks, but increases the Resilience (Re) their target needs by 1 and decrease their own by 1 when fighting in melee.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aa06-9807-f844-3359" name="Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c47f-a5cb-121d-0d15" name="Missile" hidden="false">
+              <description>A unit equipped with missile weapons does not generate a powder smoke token when fired, but decreases the Resilience (Re) their target needs by 1. e.g a 5+ becomes a 4+. Remembering natural 1s always fail.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df45-b2df-292f-76c5" name="Black Powder" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6333-2009-7564-a56c" name="Black Powder" hidden="false">
+              <description>A unit with black powder weapons generates a powder smoke token every time they make a shooting action.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

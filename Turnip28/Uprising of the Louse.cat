@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b9aa-5677-8bf5-424b" name="Uprising of the Louse" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="d722-2d4a-f471-d8a2" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5bdb-d4d6-0ba1-5538" name="Toady" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f3-c94e-12d6-5826" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3cd-a1f7-73fc-217e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e573-aaab-cc3d-73f7" name="Toady" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">1</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">1</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">6+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">6&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="a6cd-2672-e73d-8aa1" name="Snobs" hidden="false" targetId="ac0e-d25b-5586-365c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="96b2-1455-b203-b907" name="Command Range 3&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da77-b978-8cc7-cb3f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fd6-c61e-ec66-bfa0" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="0f6a-2965-bb0e-9f5b" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3f05-4864-b473-bfed" name="Houndmaster" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ff-3983-769b-840f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfd6-cb4c-ab39-05ab" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f77f-60e7-48c7-3b20" name="Houndmaster" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">4</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">2</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">-</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1 Hound, 1 Master</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f9ff-88a0-0fd6-4da9" name="Sniff them Out" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">The Houndmaster may declare a Toff Off! with any enemy Snob. The enemy Snob must always choose Sabres.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="aaca-85d6-59ec-c59e" name="Snobs" hidden="false" targetId="ac0e-d25b-5586-365c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f0fb-7a8e-76c1-30d4" name="Command Range 6&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d358-304a-bbe1-ff9f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32f0-36ea-4721-0720" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd4f-20d0-30c1-cf99" name="The Tall Man" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef8-f463-8629-23ef" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3f1-f2c8-89d0-d481" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="325c-b9db-ecc4-4243" name="- The Tall Man&apos;s Gaze" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">The Tall Man&apos;s Gaze Stretches out 6&quot; from the centre of its base. Any unit even partially within this area is considered in The Tall Man&apos;s Gaze.
+• At the Start of the second round increase the range of the Tall Man&apos;s Gaze by 6&quot;.
+• If an enemy Snob is removed for any reason increase the range of the Tall Man&apos;s Gaze by 6&quot;.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e8f-bce7-077a-d23c" name="The Tall Man Reveals" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">If an enemy Follower unit is within the Tall Man&apos;s Gaze that unit blunders not on a 1, but instead on the Round Number.
+For example on round 3, a enemy unit within the Tall Man&apos;s Gaze will blunder on a 1,2 or 3.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="75ca-2994-38e8-095c" name="The Tall Man Protects" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">Any friendly unit within the Tall Man&apos;s Gaze may ignore wounds on a 2+. This is done
+after Resilience rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8c96-150e-9f40-55a0" name="New CategoryLink" hidden="false" targetId="1d87-5f78-f7a9-b466" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb04-6568-ca8b-f4e4" name="- Toff" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2c-2f21-a889-b19c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea11-5463-c8cc-1950" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c4cc-4fc6-5df3-60d1" name="Toff" hidden="false" typeId="a67c-4098-c223-f1d9" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="b935-4488-d358-6e91">6&quot;</characteristic>
+            <characteristic name="A" typeId="d2e4-6a9a-b9b6-4e73">2</characteristic>
+            <characteristic name="Acc" typeId="abd4-f7cd-9be6-e5cb">5+</characteristic>
+            <characteristic name="W" typeId="4423-cb9e-dcdc-ff3d">2</characteristic>
+            <characteristic name="Re" typeId="a49f-fcd4-4203-ab27">5+</characteristic>
+            <characteristic name="Range" typeId="d6a7-95b9-fad9-86c8">6&quot;</characteristic>
+            <characteristic name="Models" typeId="8a2d-9d71-5f96-d4a6">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="253c-8a3b-3de0-73c5" name="Toff Off!" hidden="false" typeId="c879-22da-9952-fa5b" typeName="Special">
+          <characteristics>
+            <characteristic name="Rules" typeId="4dba-fca4-8bbb-37cd">When a Toff is chosen to activate, and there is an enemy Toff within 18&quot; and in line of sight, they may propose a Toff Off!</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0166-9c7a-6164-2011" name="Toff Off!" hidden="false">
+          <description>When a Toff is challenged to a Toff Off! they may choose how the duel is fought: Pistols or sabres.
+• Pistols: Both Toffs will make simultaneous shooting attacks against each other until one of them has perished.
+These attacks do not generate powder smoke.
+• Sabres: Both Toffs will make simultaneous melee attacks against each other until one of them has perished.
+If a Toff cannot make shooting attacks, either because of mutations or equipment, they must endure a single free
+shooting attack from their opponent before both parties proceed to duel using sabres.
+If a player is feeling particularly honourable, when challenged, they may give their opponent the choice between
+Pistols or Sabres.
+To add a bit of visual flair players are encouraged to pick a suitable spot on the battlefield to host their Toff Off! Mark
+the Toff&apos;s original positions with tokens and place the Toffs together 6&quot; apart if using pistols, or in base-to-base if
+using sabres.
+Once one Toff has fallen, return the victor to their original position and proceed with their orders.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="4fdb-8710-1423-8950" name="Snobs" hidden="false" targetId="ac0e-d25b-5586-365c" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1c50-2277-007f-32a7" name="Command Range 6&quot;" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5470-7920-b826-6a17" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="894b-5259-6ae4-636b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="33fe-9f9b-7a69-9c20" name="Weapons" hidden="false" collective="false" import="true" targetId="ed27-1e58-524e-55d2" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="9e4c-2fdf-c9d4-92e7" name="Rebellion" hidden="false">
+      <description>When an enemy unit Blunders you may instead make a free shooting attack against any target of your choice, so long as it is in range and line of sight of the blundering
+unit.
+The unit may still make perform its order normally after this special shooting attack has been resolved.
+If the unit has no ranged weapons it instead makes a shooting attack hurling: rocks, boots and rotten veg with a range of 6&quot; and an accuracy of 6+.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ed27-1e58-524e-55d2" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943b-2d3c-66b2-3dd3" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf3c-d5e4-ffed-ccee" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="245f-6e21-ae04-aefb" name="Close Combat" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c81d-9b3d-9142-afbc" name="Close Combat" hidden="false">
+              <description>A unit equipped with close combat weapons cannot make shooting attacks, but increases the Resilience (Re) their target needs by 1 and decrease their own by 1 when fighting in melee.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aa06-9807-f844-3359" name="Missile" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c47f-a5cb-121d-0d15" name="Missile" hidden="false">
+              <description>A unit equipped with missile weapons does not generate a powder smoke token when fired, but decreases the Resilience (Re) their target needs by 1. e.g a 5+ becomes a 4+. Remembering natural 1s always fail.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="df45-b2df-292f-76c5" name="Black Powder" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6333-2009-7564-a56c" name="Black Powder" hidden="false">
+              <description>A unit with black powder weapons generates a powder smoke token every time they make a shooting action.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name=" Snobbery" typeId="c61a-ae82-e486-3b45" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
